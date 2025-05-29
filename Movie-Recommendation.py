@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # **Movie Recommendation System**
-# - **Nama:** Harry Mardika
-# - **Email:** harrymardika48@gmail.com
-# - **ID Dicoding:** hkacode
+# # Submission 2 - Movie Recommendation System - Pangeran Silaen MC114D5Y1975
 # 
 #     - **Dataset:** [Movies & Ratings for Recommendation System](https://www.kaggle.com/datasets/nicoletacilibiu/movies-and-ratings-for-recommendation-system?select=ratings.csv)
 #     - **Tujuan:** Notebook ini bertujuan untuk membangun sistem rekomendasi film menggunakan dua pendekatan utama: Content-Based Filtering dan Collaborative Filtering (dengan algoritma K-Means Clustering dan Deep Learning).

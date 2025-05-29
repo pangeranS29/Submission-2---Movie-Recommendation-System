@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning - Harry Mardika
+# Laporan Submission 2 - Movie Recommendation System - Pangeran Silaen MC114D5Y1975
 
 ## Project Overview
 
@@ -71,7 +71,7 @@ Dataset ratings.csv berisi informasi tentang penilaian yang diberikan oleh pengg
 - Melakukan visualisasi jumlah film per genre
   
   Visualisasi digunakan untuk menampilkan jumlah film yang termasuk dalam setiap genre. Hal ini memberikan gambaran visual tentang sebaran genre film dan popularitas relatif dari masing-masing genre. Berdasarkan gambar 1, dapat dilihat bahwa genre film terbanyak yaitu drama lalu diikuti dengan genre comedy.
-![jumlah film per genre](https://github.com/maybeitsai/Movie-Recommendation-System/assets/130530985/ceaeef38-91f4-4383-9c00-6a9f1e407ec2)
+![jumlah film per genre](https://github.com/pangeranS29/Submission-2---Movie-Recommendation-System/blob/main/assets/gambar/jumlah%20film%20per%20genre.png)
 
   Gambar 1. Distribusi film per genre
 
@@ -122,14 +122,14 @@ Dataset ratings.csv berisi informasi tentang penilaian yang diberikan oleh pengg
 - Melakukan visualisasi rating film
   
   Visualisasi digunakan untuk memahami distribusi rating yang diberikan oleh pengguna untuk film-film dalam dataset. Grafik seperti histogram memberikan gambaran visual tentang sebaran rating. Berdasarkan gambar 2, dapat dilihat kebanyakan pengguna memberikan rating dengan nilai 4 dari 5.
-  ![distribusi rating film](https://github.com/maybeitsai/Movie-Recommendation-System/assets/130530985/6fe6d8a6-15b9-4ff3-9304-c2c9cfd3239c)
+  ![distribusi rating film](https://github.com/pangeranS29/Submission-2---Movie-Recommendation-System/blob/main/assets/gambar/distribusi%20rating%20film.png)
   
   Gambar 2. Persebaran rating film
 
 - Menganalisa jumlah rating film per tahun
   
   Analisis dilakukan untuk melihat jumlah rating film yang diberikan oleh pengguna per tahun. Hal ini membantu dalam memahami tren penilaian pengguna dari waktu ke waktu dan mencari pola-pola menarik. Berdasarkan gambar 3, dapat dilihat jumlah rating tertinggi terdapat pada tahun 2000.
-  ![jumlah rating per tahun](https://github.com/maybeitsai/Movie-Recommendation-System/assets/130530985/4b2feb61-060b-484f-8d5f-83da93ab1bee)
+  ![jumlah rating per tahun](https://github.com/pangeranS29/Submission-2---Movie-Recommendation-System/blob/main/assets/gambar/jumlah%20rating%20per%20tahun.png)
 
   Gambar 3. Distribusi rating film per tahun
 
@@ -387,7 +387,7 @@ _Precision_ adalah metrik evaluasi yang mengukur seberapa baik model membuat pre
 
   Pada model dengan menggunakan _Cosine Similarity_ menghasilkan nilai presisi 100% dari top 10 rekomendasi film.
 
-  ![evaluasi cosine](https://github.com/maybeitsai/Movie-Recommendation-System/assets/130530985/f6ed0c9c-db67-4010-8855-c8418ea6238b)
+  ![evaluasi cosine](https://github.com/pangeranS29/Submission-2---Movie-Recommendation-System/blob/main/assets/gambar/evaluasi%20cosine.png)
 
   Gambar 4. Visualisasi nilai presisi dari model berbasis konten
 
@@ -401,7 +401,7 @@ _Precision_ adalah metrik evaluasi yang mengukur seberapa baik model membuat pre
 
   Berikut ini merupakan visualisasi hasil evaluasi pada model _KMeans CLustering_.
   
-  ![evaluasi clustering](https://github.com/maybeitsai/Movie-Recommendation-System/assets/130530985/c3bfa1e8-1dba-4171-9d1b-50501256510e)
+  ![evaluasi clustering](https://github.com/pangeranS29/Submission-2---Movie-Recommendation-System/blob/main/assets/gambar/evaluasi%20clustering.png)
 
   Gambar 5. Visualisasi kesalahan pada model _KMeans CLustering_
 
@@ -416,11 +416,11 @@ _Precision_ adalah metrik evaluasi yang mengukur seberapa baik model membuat pre
   
   Berikut ini merupakan visualisasi hasil evaluasi pada model _Deep Learning_.
 
-  ![mse deep learning](https://github.com/maybeitsai/Movie-Recommendation-System/assets/130530985/8dfc6406-ebc0-4e6b-879f-8e23508ac706)
+  ![mse deep learning](https://github.com/pangeranS29/Submission-2---Movie-Recommendation-System/blob/main/assets/gambar/mse%20deep%20learning.png)
   
   Gambar 6. _Mean Squared Error (MSE)_ pada model _Deep Learning_
 
-  ![rmse deep learning](https://github.com/maybeitsai/Movie-Recommendation-System/assets/130530985/489edc2f-dd0e-432b-8171-0622dd6265f1)
+  ![rmse deep learning](https://github.com/pangeranS29/Submission-2---Movie-Recommendation-System/blob/main/assets/gambar/rmse%20deep%20learning.png)
   
   Gambar 7. _Root Mean Squared Error (RMSE)_ pada model _Deep Learning_
 
