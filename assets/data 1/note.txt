@@ -1,0 +1,41 @@
+https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
+
+- track_id: ID Spotify untuk lagu tersebut
+
+- artists: Nama-nama artis yang menampilkan lagu. Jika ada lebih dari satu artis, mereka dipisahkan oleh ;
+
+- album_name: Nama album di mana lagu tersebut muncul
+
+- track_name: Nama lagu
+
+- popularity: Popularitas sebuah lagu adalah nilai antara 0 dan 100, dengan 100 menjadi yang paling populer. Popularitas dihitung dengan algoritma dan didasarkan, sebagian besar, pada jumlah total putar yang dimiliki lagu dan seberapa baru putaran tersebut. Umumnya, lagu yang sedang banyak diputar sekarang akan memiliki popularitas yang lebih tinggi daripada lagu yang banyak diputar di masa lalu. Lagu duplikat (misalnya, lagu yang sama dari single dan album) dinilai secara independen. Popularitas artis dan album diperoleh secara matematis dari popularitas lagu.
+
+- duration_ms: Panjang lagu dalam milidetik
+
+- explicit: Apakah lagu tersebut memiliki lirik eksplisit (true = ya; false = tidak atau tidak diketahui)
+
+- danceability: Danceability menggambarkan seberapa cocok sebuah lagu untuk menari berdasarkan kombinasi elemen musik termasuk tempo, stabilitas ritme, kekuatan ketukan, dan kelancaran keseluruhan. Nilai 0.0 adalah yang paling tidak cocok untuk menari dan 1.0 adalah yang paling cocok untuk menari
+
+- energy: Energy adalah ukuran dari 0.0 hingga 1.0 dan mewakili ukuran persepsi dari intensitas dan aktivitas. Biasanya, lagu-lagu yang energetik terasa cepat, keras, dan bising. Sebagai contoh, musik death metal memiliki energi tinggi, sementara prelude Bach mendapat nilai rendah dalam skala ini
+
+- key: Kunci yang digunakan dalam lagu. Bilangan bulat dipetakan ke nada menggunakan notasi Pitch Class standar. Misalnya, 0 = C, 1 = C♯/D♭, 2 = D, dan seterusnya. Jika tidak ada kunci yang terdeteksi, nilainya adalah -1
+
+- loudness: Kekerasan keseluruhan sebuah lagu dalam desibel (dB)
+
+- mode: Mode menunjukkan modalitas (mayor atau minor) dari sebuah lagu, yaitu jenis skala dari konten melodi lagu tersebut. Mayor direpresentasikan oleh 1 dan minor direpresentasikan oleh 0
+
+- speechiness: Speechiness mendeteksi keberadaan kata-kata yang diucapkan dalam sebuah lagu. Semakin eksklusif rekaman seperti pidato (misalnya, talk show, buku audio, puisi), semakin dekat dengan nilai atribut 1.0. Nilai di atas 0.66 menggambarkan lagu-lagu yang mungkin terbuat sepenuhnya dari kata-kata yang diucapkan. Nilai antara 0.33 dan 0.66 menggambarkan lagu-lagu yang mungkin berisi baik musik maupun ucapan, baik dalam bagian atau lapisan, termasuk kasus-kasus seperti musik rap. Nilai di bawah 0.33 kemungkinan besar mewakili musik dan lagu-lagu lainnya yang tidak mirip ucapan
+
+- acousticness: Ukuran kepercayaan dari 0.0 hingga 1.0 apakah lagu tersebut akustik. 1.0 mewakili kepercayaan tinggi bahwa lagu tersebut akustik
+
+- instrumentalness: Memprediksi apakah sebuah lagu tidak mengandung vokal. Suara "Ooh" dan "aah" dianggap sebagai instrumen dalam konteks ini. Lagu rap atau ucapan jelas "vokal". Semakin dekat nilai instrumentalness dengan 1.0, semakin besar kemungkinan lagu tersebut tidak mengandung konten vokal
+
+- liveness: Mendeteksi keberadaan penonton dalam rekaman. Nilai liveness yang lebih tinggi mewakili probabilitas yang lebih tinggi bahwa lagu tersebut ditampilkan secara langsung. Nilai di atas 0.8 memberikan kemungkinan besar bahwa lagu tersebut ditampilkan secara langsung
+
+- valence: Ukuran dari 0.0 hingga 1.0 yang menggambarkan positivitas musik yang disampaikan oleh sebuah lagu. Lagu-lagu dengan valence tinggi terdengar lebih positif (misalnya, bahagia, ceria, euforia), sementara lagu-lagu dengan valence rendah terdengar lebih negatif (misalnya, sedih, depresi, marah)
+
+- tempo: Tempo keseluruhan yang diperkirakan dari sebuah lagu dalam ketukan per menit (BPM). Dalam terminologi musik, tempo adalah kecepatan atau laju dari sebuah bagian dan berasal langsung dari durasi ketukan rata-rata
+
+- time_signature: Tanda waktu yang diperkirakan. Tanda waktu (meter) adalah konvensi notasi untuk menentukan berapa banyak ketukan dalam setiap tak (atau tindakan). Tanda waktu berkisar dari 3 hingga 7 menunjukkan tanda waktu 3/4 hingga 7/4.
+
+- track_genre: Genre di mana lagu tersebut termasuk
